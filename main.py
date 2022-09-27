@@ -1,6 +1,6 @@
 import status
 import os
-MENU_OPTIONS = ["Connect a Device","Disconnect a Device","Clear Data"]
+MENU_OPTIONS = ["Pair a Device","Connect a Device","Disconnect a Device","Clear Data","Exit"]
 while True:
     os.system("clear")
     #Display graphics
@@ -10,4 +10,24 @@ while True:
         print(i+1,MENU_OPTIONS[i])
 
     print("\n>",end="")
-    data = input()
+    option = int(input())
+    if option==1:
+        os.system("clear")
+        Graphics()
+        PairDevice()
+    elif option==2:
+        os.system("clear")
+        Graphics()
+        ConnectDevice()
+    elif option==3:
+        os.system("clear")
+        Graphics()
+        DisconnectDevicc()
+    elif option==4:
+        os.system("clear")
+        Graphics()
+        #Script to clear the pair status
+        pass
+    elif option==5:
+        os.system("clear")
+        exit()

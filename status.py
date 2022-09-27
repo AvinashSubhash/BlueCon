@@ -1,5 +1,5 @@
 import os
-
+import subprocess
 def statusCheck():
 
     data = os.system("which bluetoothctl > output.txt")
@@ -14,4 +14,17 @@ def statusCheck():
     else:
         return [True,"Installed"]
 
+def ListPairedDevice():
+    devices = subprocess.Popen(['ls','/home/kingaiva/new'],stdout=subprocess.PIPE)
+    devices = list(devices.communicate())[0]
+    if str(devices)=="b''":
+        return []
+
+    devices = str(devices).split("b'")[1].split("\\n")
+    for x in range(len(devices)):
+        devices[x] = devices[x].split(" ",2)
+    devices.pop()
+    return devices
+
+ListPairedDevice()
 statusCheck()
