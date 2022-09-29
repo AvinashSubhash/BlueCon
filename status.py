@@ -15,7 +15,7 @@ def statusCheck():
         return [True,"Installed"]
 
 def ListPairedDevice():
-    devices = subprocess.Popen(['ls','/home/kingaiva/new'],stdout=subprocess.PIPE)
+    devices = subprocess.Popen(['bluetoothctl','devices'],stdout=subprocess.PIPE)
     devices = list(devices.communicate())[0]
     if str(devices)=="b''":
         return []
@@ -24,6 +24,7 @@ def ListPairedDevice():
     for x in range(len(devices)):
         devices[x] = devices[x].split(" ",2)
     devices.pop()
+    #print(devices)
     return devices
 
 ListPairedDevice()

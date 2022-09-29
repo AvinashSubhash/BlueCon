@@ -1,0 +1,9 @@
+Discovery started
+[[0;93mCHG[0m] Controller D0:C5:D3:D3:DA:0C Discovering: yes
+[[0;93mCHG[0m] Device 6D:73:01:D5:96:20 RSSI: -80
+[[0;93mCHG[0m] Device 6D:73:01:D5:96:20 TxPower: 6
+[[0;93mCHG[0m] Device 2E:EF:2F:50:8B:22 RSSI: -74
+[[0;92mNEW[0m] Device 4C:01:A9:EB:CA:6C 4C-01-A9-EB-CA-6C
+[[0;93mCHG[0m] Device 14:07:02:0B:5C:48 RSSI: -58
+[[0;91mDEL[0m] Device 6C:54:AC:75:B1:A8 6C-54-AC-75-B1-A8
+[[0;92mNEW[0m] Device 6C:54:AC:75:B1:A8 6C-54-AC-75-B1-A8

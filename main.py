@@ -1,5 +1,6 @@
 import status
 import os
+import manage
 MENU_OPTIONS = ["Pair a Device","Connect a Device","Disconnect a Device","Clear Data","Exit"]
 while True:
     os.system("clear")
@@ -13,8 +14,8 @@ while True:
     option = int(input())
     if option==1:
         os.system("clear")
-        Graphics()
-        PairDevice()
+        #Graphics()
+        manage.PairDev()
     elif option==2:
         os.system("clear")
         Graphics()
