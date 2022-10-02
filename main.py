@@ -7,6 +7,9 @@ while True:
     #Display graphics
     print("BlueCon\n")
     #Display Bluetooth status
+    print("Paired Devices : ")
+    print(manage.PairedDevices())
+    #print("\n\n")
     for i in range(len(MENU_OPTIONS)):
         print(i+1,MENU_OPTIONS[i])
 
@@ -23,7 +26,7 @@ while True:
     elif option==3:
         os.system("clear")
         Graphics()
-        DisconnectDevicc()
+        DisconnectDevice()
     elif option==4:
         os.system("clear")
         Graphics()
