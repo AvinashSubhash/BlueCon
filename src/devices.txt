@@ -1,0 +1,3 @@
+Discovery started
+[[0;93mCHG[0m] Controller D0:C5:D3:D3:DA:0C Discovering: yes
+[[0;92mNEW[0m] Device 54:13:79:7E:CE:6C DESKTOP-78I9H6Q
