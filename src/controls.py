@@ -2,6 +2,7 @@ import subprocess
 import os
 devices=[]
 final_result=[]
+paired_devices=[]
 def ConnectDevice():
     pass
 
@@ -25,6 +26,17 @@ def PairDevice(macAddr):
 def PairedDevices():
     data = subprocess.Popen(['bluetoothctl','paired-devices'],stdout=subprocess.PIPE)
     out, err = data.communicate()
-    #print(out,"\ntesting\n")
-    out = out.decode().split(" ",2)[2]
+    out = out.decode().split("\n")[:-1]
+    for i in range(len(out)):
+        out[i] = out[i].split(" ",2)
+        paired_devices.append(out[i][1])
+        out[i] = out[i][2]
     return out
+
+def UnpairDevices():
+    for device in paired_devices:
+        data = subprocess.Popen(['bluetoothctl','remove',device],stdout=subprocess.PIPE)
+        data,err = data.communicate()
+        print(data.decode())
+    while len(paired_devices)>0:
+        paired_devices.pop(0)

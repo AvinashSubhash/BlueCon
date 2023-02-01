@@ -8,8 +8,8 @@ while True:
     print("BlueCon\n")
     #Display Bluetooth status
     print("Paired Devices : ")
-    print(manage.PairedDevices())
-    #print("\n\n")
+    manage.PairedDevices()
+    print("\n\n")
     for i in range(len(MENU_OPTIONS)):
         print(i+1,MENU_OPTIONS[i])
 
@@ -29,8 +29,8 @@ while True:
         DisconnectDevice()
     elif option==4:
         os.system("clear")
-        Graphics()
-        #Script to clear the pair status
+        #Graphics()
+        manage.ResetDevice()
         pass
     elif option==5:
         os.system("clear")

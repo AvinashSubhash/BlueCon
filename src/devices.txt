@@ -1,3 +1,32 @@
 Discovery started
-[[0;93mCHG[0m] Controller D0:C5:D3:D3:DA:0C Discovering: yes
-[[0;92mNEW[0m] Device 54:13:79:7E:CE:6C DESKTOP-78I9H6Q
+[[0;93mCHG[0m] Device 3E:F5:EF:9D:5D:8E RSSI: -68
+[[0;93mCHG[0m] Device 30:1C:46:AA:D2:04 RSSI: -74
+[[0;93mCHG[0m] Device 58:99:05:B6:F5:49 RSSI: -64
+[[0;93mCHG[0m] Device 22:18:89:65:CC:E2 RSSI: -66
+[[0;93mCHG[0m] Device 59:77:A3:71:C5:A8 RSSI: -70
+[[0;93mCHG[0m] Device 43:14:29:15:26:3C RSSI: -76
+[[0;93mCHG[0m] Device 43:14:29:15:26:3C ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 43:14:29:15:26:3C ManufacturerData Value:
+  0c 0e 08 e4 e0 24 91 40 f7 d7 45 a0 ed 54 c6 ea  .....$.@..E..T..
+  10 06 0a 1d 20 24 f0 28                          .... $.(        
+[[0;93mCHG[0m] Device 72:D9:78:36:71:ED RSSI: -62
+[[0;93mCHG[0m] Device 5D:38:89:66:8E:13 RSSI: -70
+[[0;93mCHG[0m] Device 5D:38:89:66:8E:13 ManufacturerData Key: 0x004c
+[[0;93mCHG[0m] Device 5D:38:89:66:8E:13 ManufacturerData Value:
+  0c 0e 08 e4 e0 24 91 40 f7 d7 45 a0 ed 54 c6 ea  .....$.@..E..T..
+  10 06 0a 1d 20 24 f0 28                          .... $.(        
+[[0;93mCHG[0m] Device 70:74:87:F7:C9:BE RSSI: -64
+[[0;93mCHG[0m] Device E6:45:8F:BD:0E:BE RSSI: -70
+[[0;93mCHG[0m] Device C0:B8:4F:1B:E3:FD RSSI: -68
+[[0;93mCHG[0m] Device 0A:C6:2B:31:06:7B RSSI: -76
+[[0;93mCHG[0m] Device 56:0E:43:E8:6F:A5 RSSI: -40
+[[0;93mCHG[0m] Device 50:7E:FC:F8:94:43 RSSI: -68
+[[0;93mCHG[0m] Device 9C:6B:72:59:45:A8 LegacyPairing: no
+[[0;93mCHG[0m] Device 9C:6B:72:59:45:A8 RSSI: -36
+[[0;91mDEL[0m] Device 53:72:86:61:91:AF LE_WF-C500
+[[0;93mCHG[0m] Device ED:E3:D0:EB:14:A9 RSSI: -68
+[[0;93mCHG[0m] Device DF:6F:6E:E3:03:39 RSSI: -68
+[[0;93mCHG[0m] Device 14:07:02:0B:5C:48 RSSI: -58
+[[0;93mCHG[0m] Device 9C:6B:72:59:45:A8 RSSI: -42
+[[0;93mCHG[0m] Device 0F:05:20:7B:95:53 RSSI: -78
+[[0;93mCHG[0m] Device 9C:6B:72:59:45:A8 RSSI: -40
