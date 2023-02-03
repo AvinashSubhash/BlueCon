@@ -1,5 +1,0 @@
-Discovery started
-[[0;93mCHG[0m] Controller D0:C5:D3:D3:DA:0C Discovering: yes
-[[0;91mDEL[0m] Device 71:91:D8:06:DD:56 71-91-D8-06-DD-56
-[[0;92mNEW[0m] Device 04:20:50:61:17:4D realme Buds Air Neo
-[[0;92mNEW[0m] Device D0:97:FE:71:BA:C0 realme 8
