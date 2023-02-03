@@ -1,30 +1,8 @@
 Discovery started
 [[0;93mCHG[0m] Controller D0:C5:D3:D3:DA:0C Discovering: yes
-[[0;93mCHG[0m] Device 14:07:02:0B:5C:48 RSSI: -36
-[[0;92mNEW[0m] Device 34:7D:F6:7B:F7:DB DESKTOP-95CL2R5
-[[0;93mCHG[0m] Device 16:3A:7D:90:0C:0C RSSI: -84
-[[0;93mCHG[0m] Device 51:7E:CE:A4:F4:23 RSSI: -70
-[[0;93mCHG[0m] Device 51:7E:CE:A4:F4:23 TxPower: 12
-[[0;93mCHG[0m] Device 31:5F:D0:8A:30:9B RSSI: -76
-[[0;93mCHG[0m] Device 45:F1:51:99:2C:1A RSSI: -78
-[[0;93mCHG[0m] Device 49:47:BA:D5:17:AE RSSI: -80
-[[0;93mCHG[0m] Device 49:47:BA:D5:17:AE TxPower: 7
-[[0;92mNEW[0m] Device 6F:6F:55:50:04:48 6F-6F-55-50-04-48
-[[0;93mCHG[0m] Device 5B:A9:7C:DE:CA:67 RSSI: -64
-[[0;93mCHG[0m] Device 5B:A9:7C:DE:CA:67 TxPower: 2
-[[0;93mCHG[0m] Device 30:4F:00:95:6F:18 RSSI: -48
-[[0;92mNEW[0m] Device 5B:4E:EE:27:CC:5F 5B-4E-EE-27-CC-5F
-[[0;93mCHG[0m] Device 66:28:04:0B:42:64 RSSI: -76
-[[0;93mCHG[0m] Device 66:28:04:0B:42:64 TxPower: 12
-[[0;93mCHG[0m] Device 51:7E:CE:A4:F4:23 RSSI: -60
-[[0;93mCHG[0m] Device 45:F1:51:99:2C:1A ServiceData Key: 0000fef3-0000-1000-8000-00805f9b34fb
-[[0;93mCHG[0m] Device 45:F1:51:99:2C:1A ServiceData Value:
-  4a 17 23 52 31 56 35 11 32 0b 20 c6 e7 60 81 4f  J.#R1V5.2. ..`.O
-  1d cc d7 33 a1 93 ec 97 21 f3 87                 ...3....!..     
-[[0;93mCHG[0m] Device 49:47:BA:D5:17:AE RSSI: -66
-[[0;93mCHG[0m] Device 64:F5:82:7F:95:F2 RSSI: -76
-[[0;93mCHG[0m] Device 64:F5:82:7F:95:F2 TxPower: 8
-[[0;93mCHG[0m] Device 77:AC:2E:AD:74:C7 RSSI: -84
-[[0;93mCHG[0m] Device 77:AC:2E:AD:74:C7 TxPower: 8
-[[0;93mCHG[0m] Device 9C:6B:72:59:45:A8 RSSI: -42
-[[0;93mCHG[0m] Device 51:7E:CE:A4:F4:23 RSSI: -74
+[[0;93mCHG[0m] Device 7C:BF:0C:14:41:04 RSSI: -74
+[[0;93mCHG[0m] Device 7C:BF:0C:14:41:04 TxPower: 6
+[[0;93mCHG[0m] Device 48:E7:DA:31:D1:B8 RSSI: -78
+[[0;93mCHG[0m] Device 48:E7:DA:31:D1:B8 TxPower: 10
+[[0;93mCHG[0m] Device 14:07:02:0B:5C:48 RSSI: -42
+[[0;91mDEL[0m] Device 04:20:50:61:17:4D realme Buds Air Neo

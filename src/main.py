@@ -2,6 +2,8 @@ import status
 import os
 import manage
 MENU_OPTIONS = ["Pair a Device","Connect a Device","Disconnect a Device","Clear Data","Exit"]
+os.system("bluetoothctl power on")
+
 while True:
     os.system("clear")
     #Display graphics
@@ -22,7 +24,7 @@ while True:
     elif option==2:
         os.system("clear")
         Graphics()
-        ConnectDevice()
+        #ConnectDevice()
     elif option==3:
         os.system("clear")
         Graphics()

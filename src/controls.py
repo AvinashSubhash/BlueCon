@@ -5,9 +5,6 @@ FINAL_DEVICE_ID=[]
 FINAL_DEVICE_NAMES=[]
 PAIRED_DEVICE_NAMES=[]
 PAIRED_DEVICE_ID=[]
-def ConnectDevice(macAddr):
-    connecting_status = subprocess.Popen(['bluetoothctl','connect',str(macAddr)],stdout=subprocess.PIPE)
-    return connecting_status
 
 def SearchDevices():
     os.system("timeout 5s bluetoothctl scan on > devices.txt")    
@@ -24,11 +21,11 @@ def SearchDevices():
     return [FINAL_DEVICE_NAMES,FINAL_DEVICE_ID]
 
 def PairDevice(macAddr):
-    pairing_status = subprocess.Popen(['bluetoothctl','pair',str(macAddr)],stdout=subprocess.PIPE)
+    os.system("bluetoothctl connect "+str(macAddr)+" | yes")
+    exit()
+    pairing_status = subprocess.Popen(['bluetoothctl','connect','|','yes',str(macAddr)],stdout=subprocess.PIPE)
     out, err = pairing_status.communicate()
     out = out.decode()
-    if "Pairing successful" in out:
-        return ConnectDevice(macAddr)
     return pairing_status
 
 def PairedDevices():

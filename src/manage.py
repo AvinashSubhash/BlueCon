@@ -20,6 +20,7 @@ def PairDev():
             out, err = data.communicate()
             out = out.decode()
             print(out)
+            exit()
             os.system("sleep 4")
             if "Pairing successful" in out:
                 return True
