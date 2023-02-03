@@ -1,5 +1,6 @@
 import subprocess
 import os
+
 FINAL_DEVICE_ID=[]
 FINAL_DEVICE_NAMES=[]
 PAIRED_DEVICE_NAMES=[]
